@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ethan</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="description" content="Clean and Smooth Parallax - Jquery Plugin">
+    <link rel="shortcut icon" href="img/to_top.png" type="image/png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|PT+Serif:700|Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/Snake.Parallax.js"></script>
+    <script>
+      jQuery(function(){
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 200 ) { 
+                            $('#scrollUp').css('right','10px');
+                        } else { 
+                            $('#scrollUp').removeAttr( 'style' );
+                        }
+ 
+                    });
+                });
+            });
+    </script>
+    <script>
+      $(document, window).SnakeParallax({
+        backgroundPosition:"center top",
+        backgroundImage:"url('https://img.lovepik.com/background/20211021/medium/lovepik-abstract-background-banner-image_400185175.jpg')",
+      });
+    </script>
+    <noscript><style>[snake-parallax="hero"]{background-repeat:no-repeat;background-position:center;background-size:cover;background-image:url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1713&q=80')}</style></noscript>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+  <body>
+    <div id="content" class="hero-section" snake-parallax="hero">
+      <div class="hero-wrapper">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1 class="hero-title">Ehrler Ethan</h1>
+          <p class="hero-subtitle">Etudiant en BUT informatique à Grenoble, France.</p>
+          <div class="hero-btns">
+            <div class="btn">
+              <a href="https://www.linkedin.com/in/ethan-e-b5855a251" class="snake-prim">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="demo">
+      <div class="demo-box">
+        <h2>Compétences</h2>
+        <div class="features">
+          <div class="features-box">
+            <h3>Langages</h3>
+            <ul class="features-box-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Java</li>
+              <li>C++</li>
+              <li>PHP</li>
+              <li>PosteSQL</li>
+            </ul>
+          </div>
+          <div class="features-box">
+            <h3>Logiciels/OS</h3>
+            <ul class="features-box-list">
+              <li>Git</li>
+              <li>Figma</li>
+              <li>VSCode</li>
+              <li>Intellij</li>
+              <li>Linux</li>
+              <li>Windows</li>
+            </ul>
+          </div>
+          <div class="features-box">
+            <h3>Humaines</h3>
+            <ul class="features-box-list">
+              <li>Capacité à travailler en équipe</li>
+              <li>Ponctuel</li>
+              <li>Volonté d'apprendre</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="features">
+      <div class="features-box">
+        <h3>Formations</h3>
+        <p><u>BUT informatique</u></p>
+        <p>IUT2 - UGA, Grenoble, France</p>
+        <p>depuis 2021</p>
+        <br>
+        <p><u>Baccalauréat technologique</u></p>
+        <p>Lycée l'Oiselet, Bourgoin-Jallieu, France</p>
+        <p>2018 - 2021</p>
+      </div>
+      <div class="features-box">
+        <h3>Expériences</h3>
+        <p><u>Développement web :</u></p>
+        <p>Développement d'un site web en HTML, CSS pour une entreprise</p>
+        <p>Op-Heberg</p>
+        <p>juin 2022</p>
+      </div>
+      <div class="features-box">
+        <h3>Projets</h3>
+        <p><u>Projet Hopack :</u></p>
+        <P>2022 - IUT2, UGA - Développement d'une application d'organisation évènementielle | chef de projet</P>
+        <ul class="features-box-list">
+          <li>- JavaFx, CSS</li>
+          <li>- Groupe de 6</li>
+        </ul>
+        <br>
+        <p><u>Projet web :</u></p>
+        <P>2021 - IUT2, UGA - Développement d'un site internet pour une ESN</P>
+        <ul class="features-box-list">
+          <li>- HTML, CSS</li>
+          <li>- Groupe de 3</li>
+        </ul>
+      </div>
+    </div>
+    <div class="demo">
+      <div class="demo-box">
+        <h2>Centres d'intérêt</h2>
+        <div class="features">
+          <div class="features-box">
+            <h3>Conscrits</h3>
+            <p>association organisant des évènements</p>
+          </div>
+          <div class="features-box">
+            <img src="img/me.jpg" alt="">
+          </div>
+          <div class="features-box">
+            <h3>Sports</h3>
+            <p>Ski, tennis de table 10 ans, karaté 2 ans</p>
+          </div>
+        </div>
+        <div class="features"> 
+          <div class="features-box">
+            <h3>Moto/automobile</h3>
+          </div>
+          <div class="features-box">
+            <h3>Jeux vidéo</h3>
+            <p>Genshin, Minecraft, Forza, Cyberpunk</p>
+          </div>
+          <div class="features-box">
+            <h3>Animés/mangas</h3>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="demo">
+      <div class="demo-box">
+        <h2>Permis</h2>
+        <div class="features">
+          <div class="features-box">
+            <h3>Permis voiture (B)</h3>
+          </div>
+          <div class="features-box">
+            <img id="permis" src="img/permis.jpg" alt="">
+          </div>
+          <div class="features-box">
+            <h3>Permis moto 125 (A1)</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="demo">
+      <div class="demo-box">
+        <h2>Langues</h2>
+        <div class="features">
+          <div class="features-box">
+            <h3>Français</h3>
+            <img class="langue" src="img/full.jpg" alt="">
+          </div>
+          <div class="features-box">
+            <h3>Anglais</h3>
+            <img class="langue" src="img/mi.jpg" alt="">
+          </div>
+          <div class="features-box">
+            <h3>Espagnol</h3>
+            <img class="langue" src="img/low.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      
+    </div>
+    <div id="scrollUp">
+      <a href="#content"><img src="img/to_top.png"/></a>
+      </div>
+  </body>
+</html>
