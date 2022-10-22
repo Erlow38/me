@@ -386,10 +386,10 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid #181818; /* creates padding around scroll thumb */
 }
 #progress_bar {
-   border: solid 1px black;
+   border: solid 1px #181818;
    height: 11px;
  }
  #progress_bar div {
    height: 10px; /* La barre fait la hauteur de son contenu */
-   background: black; /* On applique une couleur d'arrière plan sur l'objet pour la couleur de la barre de progression */
+   background: #181818; /* On applique une couleur d'arrière plan sur l'objet pour la couleur de la barre de progression */
  }
