@@ -1,6 +1,10 @@
+html {
+   scroll-behavior: smooth;
+}
 body{
     font-family:poppins, sans-serif;
     background-color: #ebebeb;
+    overflow-x: hidden;
 }
 a{
     text-decoration:none 
@@ -325,7 +329,61 @@ i{
    -ms-flex-direction:column;
    flex-direction:column
 }
-@media only screen and (max-width:768px){
+.credit{
+   margin-top:20px;
+   font-size:small;
+   color:#666
+}
+.credit>a{
+   color:#444;
+   font-weight:700
+}
+.credit>a:hover{
+   text-decoration:underline
+}
+#scrollUp
+{
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 0.7;
+}
+body::-webkit-scrollbar {
+    width: 12px; 
+}
+body::-webkit-scrollbar-track {
+    background: #181818; 
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #15BCFB; 
+    border-radius: 20px; 
+    border: 3px solid #181818; 
+}
+#progress_bar1 {
+   border: solid 1px #181818;
+   height: 11px;
+ }
+ #progress_bar1 div {
+   height: 10px; 
+   background: #81D6F4; 
+ }
+ #progress_bar2 {
+   border: solid 1px #181818;
+   height: 11px;
+ }
+ #progress_bar2 div {
+   height: 10px; 
+   background: #4D4EC3; 
+ }
+ #progress_bar3 {
+   border: solid 1px #181818;
+   height: 11px;
+ }
+ #progress_bar3 div {
+   height: 10px; 
+   background: #E9677D; 
+ }
+ @media only screen and (max-width:768px){
    .hero-title{
        font-size:48px;
        line-height:56px;
@@ -353,42 +411,68 @@ i{
    .demo{
        text-align:left
    }
+   #bubble2 {
+      position:absolute;
+      bottom: -1000px;
+      left: -200px;
+      opacity: 0;
+      z-index: -10;
+      transform : rotate(20deg);
+    }
+    #bubble4 {
+      position:absolute;
+      bottom: -100px;
+      left: -150px;
+      opacity: 0;
+      z-index: -10;
+      transform : rotate(-20deg);
+    }
+    #bubble3{
+      position:absolute;
+      bottom: -1700px;
+      right: -100px;
+      opacity: 0.7;
+      z-index: -10;
+      transform : rotate(50deg);
+    }
+    #bubble{
+      position:absolute;
+      bottom: -100px;
+      right: -200px;
+      opacity: 0.7;
+      z-index: -10;
+    }
 }
-.credit{
-   margin-top:20px;
-   font-size:small;
-   color:#666
-}
-.credit>a{
-   color:#444;
-   font-weight:700
-}
-.credit>a:hover{
-   text-decoration:underline
-}
-#scrollUp
-{
-position: fixed;
-bottom : 10px;
-right: -100px;
-opacity: 0.5;
-}
-body::-webkit-scrollbar {
-    width: 12px; 
-}
-body::-webkit-scrollbar-track {
-    background: #181818; 
-}
-body::-webkit-scrollbar-thumb {
-    background-color: #15BCFB; 
-    border-radius: 20px; 
-    border: 3px solid #181818; 
-}
-#progress_bar {
-   border: solid 1px #181818;
-   height: 11px;
- }
- #progress_bar div {
-   height: 10px; 
-   background: #181818; 
+ @media only screen and (min-width:768px){
+   #bubble2 {
+      position:absolute;
+      bottom: -1200px;
+      left: -500px;
+      opacity: 0.7;
+      z-index: -10;
+      transform : rotate(20deg);
+    }
+    #bubble4 {
+      position:absolute;
+      bottom: -300px;
+      left: -700px;
+      opacity: 0.7;
+      z-index: -10;
+      transform : rotate(-20deg);
+    }
+    #bubble3{
+      position:absolute;
+      bottom: -1200px;
+      right: -600px;
+      opacity: 0.7;
+      z-index: -10;
+      transform : rotate(50deg);
+    }
+    #bubble{
+      position:absolute;
+      bottom: -100px;
+      right: -400px;
+      opacity: 0.7;
+      z-index: -10;
+    }
  }
