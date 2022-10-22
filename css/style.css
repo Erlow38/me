@@ -1,5 +1,6 @@
 body{
-    font-family:Lato,sans-serif 
+    font-family:poppins, sans-serif;
+    background-color: #ebebeb;
 }
 a{
     text-decoration:none 
@@ -71,7 +72,7 @@ a{
     font-size:80px;
     line-height:85px;
     font-weight:800;
-    color:#fff;
+    color:#ebebeb;
     text-shadow:0 2px 2px #181818;
     -webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
     transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
@@ -85,7 +86,7 @@ a{
     width:100%;
     max-width:800px;
     margin:30px auto;
-    color:#fff;
+    color:#ebebeb;
     font-size:16px;
     line-height:28px;
     text-align:center;
@@ -110,7 +111,7 @@ a{
     height:48px;
     font-size:16px;
     padding:0 48px;
-    background:#fff;
+    background:#ebebeb;
    color:#181818;
    display:-webkit-box;
    display:-ms-flexbox;
@@ -131,7 +132,7 @@ a{
    font-size:16px;
    padding:0 48px;
    background:0 0;
-   color:#fff;
+   color:#ebebeb;
    display:-webkit-box;
    display:-ms-flexbox;
    display:flex;
@@ -141,7 +142,7 @@ a{
    -webkit-box-align:center;
    -ms-flex-align:center;
    align-items:center;
-   border:1px solid #fff;
+   border:1px solid #ebebeb;
    font-weight:700;
    -webkit-transition:all .15s ease;
    -o-transition:all .15s ease;
@@ -149,10 +150,10 @@ a{
 }
 .snake-prim:hover{
    background:#181818;
-   color:#fff
+   color:#ebebeb
 }
 .snake-sec:hover{
-   background:#fff;
+   background:#ebebeb;
    color:#181818
 }
 .features{
@@ -205,14 +206,12 @@ h2{
     font-size:24px;
     font-weight:700;
     margin-bottom:20px;
-    font-family:'PT Serif',serif;
     color:#444
 }
 h3{
    font-size:20px;
    font-weight:700;
    margin-bottom:20px;
-   font-family:'PT Serif',serif;
    color:#444
 }
 p{
@@ -375,21 +374,21 @@ right: -100px;
 opacity: 0.5;
 }
 body::-webkit-scrollbar {
-    width: 12px; /* width of the entire scrollbar */
+    width: 12px; 
 }
 body::-webkit-scrollbar-track {
-    background: #181818; /* color of the tracking area */
+    background: #181818; 
 }
 body::-webkit-scrollbar-thumb {
-    background-color: #15BCFB; /* color of the scroll thumb */
-    border-radius: 20px; /* roundness of the scroll thumb */
-    border: 3px solid #181818; /* creates padding around scroll thumb */
+    background-color: #15BCFB; 
+    border-radius: 20px; 
+    border: 3px solid #181818; 
 }
 #progress_bar {
    border: solid 1px #181818;
    height: 11px;
  }
  #progress_bar div {
-   height: 10px; /* La barre fait la hauteur de son contenu */
-   background: #181818; /* On applique une couleur d'arrière plan sur l'objet pour la couleur de la barre de progression */
+   height: 10px; 
+   background: #181818; 
  }
