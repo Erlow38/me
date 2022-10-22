@@ -364,7 +364,7 @@ body::-webkit-scrollbar-thumb {
    height: 11px;
  }
  #progress_bar1 div {
-   height: 10px; 
+   height: 9px; 
    background: #81D6F4; 
  }
  #progress_bar2 {
@@ -372,7 +372,7 @@ body::-webkit-scrollbar-thumb {
    height: 11px;
  }
  #progress_bar2 div {
-   height: 10px; 
+   height: 9px; 
    background: #4D4EC3; 
  }
  #progress_bar3 {
@@ -380,7 +380,7 @@ body::-webkit-scrollbar-thumb {
    height: 11px;
  }
  #progress_bar3 div {
-   height: 10px; 
+   height: 9px; 
    background: #E9677D; 
  }
  @media only screen and (max-width:768px){
