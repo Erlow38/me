@@ -380,40 +380,49 @@ bottom : 10px;
 right: -100px;
 opacity: 0.7;
 }
+.btn a{
+   border-radius: 50px;
+}
 body::-webkit-scrollbar {
     width: 12px; 
 }
 body::-webkit-scrollbar-track {
-    background: #181818; 
+    background: #ebebeb; 
 }
 body::-webkit-scrollbar-thumb {
-    background-color: #15BCFB; 
+    background-color: #181818; 
     border-radius: 20px; 
-    border: 3px solid #181818; 
+    border: 3px solid #ebebeb; 
 }
 #progress_bar1 {
    border: solid 1px #181818;
+   border-radius: 5px;
    height: 11px;
  }
  #progress_bar1 div {
    height: 9px; 
-   background: #81D6F4; 
+   background: #c73344; 
+   border-radius: 5px;
  }
  #progress_bar2 {
    border: solid 1px #181818;
+   border-radius: 5px;
    height: 11px;
  }
  #progress_bar2 div {
    height: 9px; 
-   background: #4D4EC3; 
+   background: #372cb5; 
+   border-radius: 5px;
  }
  #progress_bar3 {
    border: solid 1px #181818;
+   border-radius: 5px;
    height: 11px;
  }
  #progress_bar3 div {
    height: 9px; 
-   background: #E9677D; 
+   background: #a436b0; 
+   border-radius: 5px;
  }
  @media only screen and (max-width:768px){
    .hero-title{
@@ -582,4 +591,13 @@ body::-webkit-scrollbar-thumb {
    .features-permis::after{
       background:#f2f2f2;
    }
+   
+body::-webkit-scrollbar-track {
+   background: #181818; 
+}
+body::-webkit-scrollbar-thumb {
+   background-color: #ebebeb; 
+   border-radius: 20px; 
+   border: 3px solid #181818; 
+}
 }
