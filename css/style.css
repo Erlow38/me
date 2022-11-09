@@ -220,8 +220,8 @@ a{
     color:#666;
 }
 b {
-    color: #444;
-    font-weight:600;
+    color: #555;
+    font-weight:500;
 }
 img {
     max-width: 100%;
@@ -555,7 +555,7 @@ body::-webkit-scrollbar-thumb {
       color:#bbb;
   }
   b {
-      color: #ddd;
+      color: #ccc;
   }
   h2{
       font-size:24px;
