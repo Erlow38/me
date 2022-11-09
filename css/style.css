@@ -219,7 +219,7 @@ a{
     text-decoration: dotted;
     color:#666;
 }
-u {
+b {
     color: #444;
 }
 img {
@@ -553,7 +553,7 @@ body::-webkit-scrollbar-thumb {
   .features-box-list li{
       color:#bbb;
   }
-  u {
+  b {
       color: #ddd;
   }
   h2{
