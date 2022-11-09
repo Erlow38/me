@@ -221,6 +221,7 @@ a{
 }
 b {
     color: #444;
+    font-weight:600;
 }
 img {
     max-width: 100%;
